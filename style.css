@@ -1,0 +1,146 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#header {
+    background-color: #060007;
+    padding-bottom: 2px;
+    
+}
+
+.container {
+
+    background-color: #130127;
+   
+    box-shadow: 0 4px 10px rgba(219, 11, 11, 0.3);
+}
+
+header,
+#main-content {
+    text-align: center;
+    margin: 1px 0px;
+}
+
+h1 {
+    color: #e4f30d;
+  
+    padding: 15px;
+        
+
+}
+span{
+    border:  1px solid rgb(248, 249, 248);
+    padding: 13px ;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+.input-group,
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+table,
+th,
+td {
+    border: 1px solid #8f8f8f;
+}
+
+th {
+    background-color:#fffb00;
+    color: #000000;
+
+}
+
+td {
+    background-color: #225bf8;
+    padding: 0.8rem;
+    color: rgb(246, 245, 249);
+}
+
+input,
+select,
+button {
+    padding: 0.8rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+  
+
+button,
+.btn-primary,
+.btn-danger,
+.btn-action {
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #19a974;
+    color: #fafafa;
+}
+
+.btn-danger {
+    background-color: #f54748;
+    color: #fafafa;
+}
+
+.btn-action {
+    background-color: #ffa41b;
+    color: yellow;
+}
+
+/* Hover Effects */
+
+.btn-primary:hover {
+    background-color: #178060;
+}
+
+.btn-danger:hover {
+    background-color: #d43c40;
+}
+
+.btn-action:hover {
+    background-color: #ff8c00;
+}
+
+.close:hover {
+    color: #f54748;
+}
+
+.modal {
+    z-index: 2000;
+}
+
+.modal-backdrop {
+    z-index: 1500;
+}
+
+.main-container {
+    padding: 60px;
+}
+#user-management{
+padding:50px 0px;
+}
