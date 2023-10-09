@@ -149,18 +149,3 @@ button,
     padding: 50px 0px;
 }
 
-@media only screen and (max-width: 600px) {
-    .main-container  {
-      padding: 20px 20px 2px 20px;
-    }
-    th{
-        font-size: 12px;
-    }
-    table{
-        text-align: center;
-    }
-    .class1{
-    
-        margin: 0 auto;
-    }
-  }
