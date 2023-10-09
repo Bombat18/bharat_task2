@@ -9,13 +9,13 @@ body {
 #header {
     background-color: #060007;
     padding-bottom: 2px;
-    
+
 }
 
 .container {
 
     background-color: #130127;
-   
+
     box-shadow: 0 4px 10px rgba(219, 11, 11, 0.3);
 }
 
@@ -27,18 +27,20 @@ header,
 
 h1 {
     color: #e4f30d;
-  
+
     padding: 15px;
-        
+
 
 }
-span{
-    border:  1px solid rgb(248, 249, 248);
-    padding: 13px ;
+
+span {
+    border: 1px solid rgb(248, 249, 248);
+    padding: 13px;
     border-radius: 10px;
     font-size: 25px;
 
 }
+
 .input-group,
 .actions {
     display: flex;
@@ -56,17 +58,18 @@ span{
 table {
     width: 100%;
     border-collapse: collapse;
-    
+
 }
 
 table,
 th,
 td {
     border: 1px solid #8f8f8f;
+    padding: 0.5rem;
 }
 
 th {
-    background-color:#fffb00;
+    background-color: #fffb00;
     color: #000000;
 
 }
@@ -87,7 +90,7 @@ button {
 
 
 
-  
+
 
 button,
 .btn-primary,
@@ -141,6 +144,23 @@ button,
 .main-container {
     padding: 60px;
 }
-#user-management{
-padding:50px 0px;
+
+#user-management {
+    padding: 50px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-container  {
+      padding: 20px 20px 2px 20px;
+    }
+    th{
+        font-size: 12px;
+    }
+    table{
+        text-align: center;
+    }
+    .class1{
+    
+        margin: 0 auto;
+    }
+  }
